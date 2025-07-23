@@ -1,11 +1,13 @@
 package com.tnsif.encapsulation;
 
 public class OopsConceptDemo {
+	//data members should be in private everytime
 	private int age; //whenever encapsulating data in class make it private
 	private String name;
 	
 	public int getAge() {
 //  AM     DT  METHODNAME
+		//return age;
 		return age;
 //      RETURNS AGE BECAUSE GETTER METHOD RETRIEVWS THE VALUE
 	}
