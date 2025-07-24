@@ -17,6 +17,12 @@ public class Person {
 		this.age = age;
 	}
 	
+	
+	public Person() {
+		super();
+	}
+
+
 	//getter and setter methods
 	public String getName() {
 		return name;
@@ -39,8 +45,8 @@ public class Person {
 	public int getAge() {
 		return age;
 	}
-	public void setAge(int age) {
-		this.age = age;
+	public void setAge(int string) {
+		this.age = string;
 	}
 	public int getTax() {
 		return tax;

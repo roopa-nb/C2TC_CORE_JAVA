@@ -34,5 +34,8 @@ public class OopsConceptDemo {
     	//System.out.println(obj); to print the obj in string to sting() method is used
 		return "OopsConceptDemo [age=" + age + ", name=" + name + "]";
 	}
+//    public String toString() {
+//        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+//    } this is normal to string() method 
 
 }
