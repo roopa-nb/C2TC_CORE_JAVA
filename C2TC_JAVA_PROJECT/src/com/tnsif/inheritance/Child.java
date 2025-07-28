@@ -8,6 +8,7 @@ public class Child extends Father{
 		//but in inheritance concept we should create obj of inherited class
 		ch.coffee();
 		ch.tea();
+		ch.greentea();
 		System.out.println(ch.colour);
 		System.out.println(ch.money);
 		
